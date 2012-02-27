@@ -9,7 +9,7 @@ What It Looks Like
 We know that the first think anyone wants to see is what it looks
 like. Here you go:
 
-### Sieve of Eratosthenes
+##### Sieve of Eratosthenes
 
     (module sieve-of-eratosthenes
             (require lists io)
@@ -27,7 +27,7 @@ like. Here you go:
     (defn+ sieve (v)
       (sieve (lists/seq 2 v) 1))
 
-### Fibonacci
+##### Fibonacci
 
     (module fibonacci
             (use (erlang :only (>/2 -/2 +/2))))
