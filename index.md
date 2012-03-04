@@ -20,7 +20,7 @@ unique language.
 
 ### A Quick Overview
 
-;; Numbers
+    ;; Numbers
     1
     2.2
     2e3
