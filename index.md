@@ -126,7 +126,23 @@ packaging system on your distribution.
 ### Usage
 
 Usage is quite simple. Run joxa without arguments to bring up the
-shell. Run joxa with '-c' and a file name to compile.
+shell.
+
+    $> joxa
+    Joxa 0.0.3a
+
+    joxa-shell> (defn foo () :hello)
+    ok
+    joxa-shell> (foo)
+    hello
+    joxa-shell>
+
+
+To run the compile a joxa file simply run joxa with a -c and the file name.
+
+    $> joxa -c my-mod.jxa
+    $> ls
+    my-mod.beam
 
 ### Language Reference
 
